@@ -15,6 +15,8 @@ I build LLM systems that have to be right: retrieval pipelines grounded in clini
 | [sepsis-prediction](https://github.com/nik-hill-323/sepsis-prediction) | Bidirectional LSTM that flags ICU patients at risk of sepsis 6 to 12 hours before clinical diagnosis. | PyTorch, FastAPI, Docker |
 | [skiavox](https://github.com/nik-hill-323/skiavox) | Chest X-ray analysis with a three-model ensemble, Grad-CAM explainability, DICOM ingestion and automated report drafts. Research prototype. | PyTorch, Gradio |
 | [mindscope](https://github.com/nik-hill-323/mindscope) | Multi-task mental health NLP benchmark extending MindSET with intent, crisis and comorbidity tasks, BERT and Claude baselines, and a REST API. | Transformers, Anthropic API, FastAPI, Streamlit |
+| [ragcheck](https://github.com/nik-hill-323/ragcheck) | Evaluation for RAG systems: retrieval precision/recall/MRR, sentence-level faithfulness that names the unsupported claims, answer relevance, citation coverage, and a CLI gate for CI. | scikit-learn, Anthropic and OpenAI judges, pytest |
+| [abtest-kit](https://github.com/nik-hill-323/abtest-kit) | A/B test design and analysis: power analysis, z and Welch tests, Bayesian expected loss, always-valid sequential testing (mSPRT), CUPED. Every method tested against an independent reference. | NumPy, SciPy, pytest |
 | [Retail-Demand-Forecasting](https://github.com/nik-hill-323/Retail-Demand-Forecasting) | End-to-end demand forecasting with gradient boosting on PySpark-prepared features. | XGBoost, PySpark |
 
 ## What I work with
