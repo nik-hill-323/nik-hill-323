@@ -68,12 +68,12 @@ Plus the parts without icons: LangChain and LangGraph, the OpenAI and Anthropic 
 
 ## activity
 
-<p>
-<a href="https://github.com/nik-hill-323"><img height="165" src="https://github-readme-stats.vercel.app/api?username=nik-hill-323&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent&hide_title=true" alt="GitHub stats" /></a>
-<a href="https://github.com/nik-hill-323"><img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nik-hill-323&layout=compact&hide_border=true&theme=transparent&langs_count=8&hide=html,jupyter%20notebook" alt="Most used languages" /></a>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="stats-dark.svg">
+  <img alt="Contributions, commits, repos, languages and a 26-week sparkline, regenerated daily" src="stats-light.svg" width="100%">
+</picture>
 
-<a href="https://github.com/nik-hill-323"><img src="https://github-readme-activity-graph.vercel.app/graph?username=nik-hill-323&theme=github-compact&hide_border=true&area=true" alt="Contribution activity graph" width="100%" /></a>
+<sub>These cards are rendered by [`scripts/build_stats.py`](scripts/build_stats.py) in this repo, refreshed every morning by a GitHub Action. No third-party widget service.</sub>
 
 ## elsewhere
 
