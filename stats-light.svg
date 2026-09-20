@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
 <rect width="900" height="230" rx="14" fill="#ffffff"/>
-<text x="28" y="36" font-size="13" fill="#57606a">$ github stats · last 12 months · updated 2026-09-19</text>
+<text x="28" y="36" font-size="13" fill="#57606a">$ github stats · last 12 months · updated 2026-09-20</text>
 <text x="28" y="78" font-size="22" font-weight="700" fill="#1f2328">91</text>
 <text x="110" y="78" font-size="13" fill="#57606a">contributions</text>
 <text x="28" y="108" font-size="22" font-weight="700" fill="#1f2328">75</text>
@@ -40,8 +40,8 @@
 <rect x="660" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
 <rect x="669" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
 <rect x="678" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
-<rect x="687" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
-<rect x="696" y="173" width="8" height="27" rx="2" fill="#1a7f37"/>
+<rect x="687" y="173" width="8" height="27" rx="2" fill="#1a7f37"/>
+<rect x="696" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
 <rect x="705" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
 <rect x="714" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
 <rect x="723" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
@@ -56,12 +56,12 @@
 <rect x="804" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
 <rect x="813" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
 <rect x="822" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
-<rect x="831" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
-<rect x="840" y="184" width="8" height="16" rx="2" fill="#1a7f37"/>
-<rect x="849" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
-<rect x="858" y="128" width="8" height="72" rx="2" fill="#1a7f37"/>
-<rect x="867" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
-<rect x="876" y="100" width="8" height="100" rx="2" fill="#1a7f37"/>
-<rect x="885" y="134" width="8" height="66" rx="2" fill="#1a7f37"/>
+<rect x="831" y="184" width="8" height="16" rx="2" fill="#1a7f37"/>
+<rect x="840" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
+<rect x="849" y="128" width="8" height="72" rx="2" fill="#1a7f37"/>
+<rect x="858" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
+<rect x="867" y="100" width="8" height="100" rx="2" fill="#1a7f37"/>
+<rect x="876" y="134" width="8" height="66" rx="2" fill="#1a7f37"/>
+<rect x="885" y="198" width="8" height="2" rx="2" fill="#eaeef2"/>
 <text x="660" y="220" font-size="11" fill="#57606a">peak week: 18</text>
 </svg>
