@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
 <rect width="900" height="230" rx="14" fill="#0d1117"/>
-<text x="28" y="36" font-size="13" fill="#8b949e">$ github stats · last 12 months · updated 2026-09-21</text>
-<text x="28" y="78" font-size="22" font-weight="700" fill="#e6edf3">95</text>
+<text x="28" y="36" font-size="13" fill="#8b949e">$ github stats · last 12 months · updated 2026-09-22</text>
+<text x="28" y="78" font-size="22" font-weight="700" fill="#e6edf3">103</text>
 <text x="110" y="78" font-size="13" fill="#8b949e">contributions</text>
-<text x="28" y="108" font-size="22" font-weight="700" fill="#e6edf3">75</text>
+<text x="28" y="108" font-size="22" font-weight="700" fill="#e6edf3">79</text>
 <text x="110" y="108" font-size="13" fill="#8b949e">commits</text>
 <text x="28" y="138" font-size="22" font-weight="700" fill="#e6edf3">17</text>
 <text x="110" y="138" font-size="13" fill="#8b949e">public repos</text>
@@ -61,7 +61,7 @@
 <rect x="849" y="128" width="8" height="72" rx="2" fill="#3fb950"/>
 <rect x="858" y="198" width="8" height="2" rx="2" fill="#21262d"/>
 <rect x="867" y="100" width="8" height="100" rx="2" fill="#3fb950"/>
-<rect x="876" y="134" width="8" height="66" rx="2" fill="#3fb950"/>
-<rect x="885" y="178" width="8" height="22" rx="2" fill="#3fb950"/>
+<rect x="876" y="117" width="8" height="83" rx="2" fill="#3fb950"/>
+<rect x="885" y="150" width="8" height="50" rx="2" fill="#3fb950"/>
 <text x="660" y="220" font-size="11" fill="#8b949e">peak week: 18</text>
 </svg>
