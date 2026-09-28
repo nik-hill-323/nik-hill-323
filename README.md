@@ -79,4 +79,4 @@ Plus the parts without icons: LangChain and LangGraph, the OpenAI and Anthropic 
 
 [portfolio](https://nik-hill-323.github.io/Nikhil_Obuleni/) · [resume](https://nik-hill-323.github.io/Nikhil_Obuleni/Nikhil_Obuleni_AI_Engineer.pdf) · [linkedin](https://www.linkedin.com/in/nikhil-obuleni) · nikhil.obuleni@gwu.edu
 
-Open to AI engineer and data scientist roles from 2027. If you work on AI for health and want a second pair of eyes on an evaluation setup, my inbox is open.
+Open now for January 2027 starts, AI engineer and data scientist roles. If you work on AI for health and want a second pair of eyes on an evaluation setup, my inbox is open.
