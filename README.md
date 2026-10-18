@@ -9,38 +9,123 @@
 
 ## ask my profile
 
-Ask my profile agent a question without leaving GitHub. Click one, then **Create**. A GitHub Action searches a knowledge base of my work and answers in your issue in about 30 seconds, quoting its sources with citations. If nothing in the sources supports an answer, it abstains instead of guessing. Try the pizza one.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="ask-demo-dark.svg">
+  <img alt="Animated terminal: my profile agent answers questions about my work with quoted, cited sentences, and abstains on a question its sources can't answer" src="ask-demo-light.svg" width="100%">
+</picture>
 
-<p>
-  <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=ask%3A%20what%20do%20you%20work%20on%20right%20now%3F&body=Click%20%2A%2ACreate%2A%2A%20to%20ask.%20My%20profile%20agent%20answers%20here%20in%20about%2030%20seconds%20with%20citations%20from%20my%20work%2C%20or%20abstains%20if%20nothing%20supports%20an%20answer%2C%20then%20closes%20the%20issue.%0A%0A_Only%20the%20title%20is%20read.%20Your%20question%20text%20is%20not%20posted%20on%20my%20profile._"><img alt="ask: what do you work on right now?" src="https://img.shields.io/badge/%E2%96%B6%20now%3F-161b22?style=for-the-badge"></a>
-  <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=ask%3A%20have%20you%20shipped%20RAG%20in%20production%3F&body=Click%20%2A%2ACreate%2A%2A%20to%20ask.%20My%20profile%20agent%20answers%20here%20in%20about%2030%20seconds%20with%20citations%20from%20my%20work%2C%20or%20abstains%20if%20nothing%20supports%20an%20answer%2C%20then%20closes%20the%20issue.%0A%0A_Only%20the%20title%20is%20read.%20Your%20question%20text%20is%20not%20posted%20on%20my%20profile._"><img alt="ask: have you shipped RAG in production?" src="https://img.shields.io/badge/%E2%96%B6%20RAG%20in%20prod%3F-161b22?style=for-the-badge"></a>
-  <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=ask%3A%20which%20languages%20did%20the%20evaluation%20cover%3F&body=Click%20%2A%2ACreate%2A%2A%20to%20ask.%20My%20profile%20agent%20answers%20here%20in%20about%2030%20seconds%20with%20citations%20from%20my%20work%2C%20or%20abstains%20if%20nothing%20supports%20an%20answer%2C%20then%20closes%20the%20issue.%0A%0A_Only%20the%20title%20is%20read.%20Your%20question%20text%20is%20not%20posted%20on%20my%20profile._"><img alt="ask: which languages did the evaluation cover?" src="https://img.shields.io/badge/%E2%96%B6%20languages%3F-161b22?style=for-the-badge"></a>
-  <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=ask%3A%20are%20you%20open%20to%20work%3F&body=Click%20%2A%2ACreate%2A%2A%20to%20ask.%20My%20profile%20agent%20answers%20here%20in%20about%2030%20seconds%20with%20citations%20from%20my%20work%2C%20or%20abstains%20if%20nothing%20supports%20an%20answer%2C%20then%20closes%20the%20issue.%0A%0A_Only%20the%20title%20is%20read.%20Your%20question%20text%20is%20not%20posted%20on%20my%20profile._"><img alt="ask: are you open to work?" src="https://img.shields.io/badge/%E2%96%B6%20open%20to%20work%3F-161b22?style=for-the-badge"></a>
-  <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=ask%3A%20what%27s%20your%20favorite%20pizza%3F&body=Click%20%2A%2ACreate%2A%2A%20to%20ask.%20My%20profile%20agent%20answers%20here%20in%20about%2030%20seconds%20with%20citations%20from%20my%20work%2C%20or%20abstains%20if%20nothing%20supports%20an%20answer%2C%20then%20closes%20the%20issue.%0A%0A_Only%20the%20title%20is%20read.%20Your%20question%20text%20is%20not%20posted%20on%20my%20profile._"><img alt="ask: what's your favorite pizza?" src="https://img.shields.io/badge/%E2%96%B6%20pizza%3F-161b22?style=for-the-badge"></a>
-  <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=ask%3A%20have%20you%20used%20Airflow%3F&body=Replace%20the%20example%20in%20the%20title%20with%20your%20own%20question%20%28keep%20the%20%60ask%3A%60%20prefix%29%2C%20then%20click%20%2A%2ACreate%2A%2A.%20My%20profile%20agent%20answers%20here%20in%20about%2030%20seconds%20with%20citations%2C%20or%20abstains%2C%20then%20closes%20the%20issue.%0A%0A_Only%20the%20title%20is%20read.%20Your%20question%20text%20is%20not%20posted%20on%20my%20profile._"><img alt="ask your own question" src="https://img.shields.io/badge/%E2%9C%8E%20ask%20your%20own-1f6feb?style=for-the-badge"></a>
-</p>
+Click a question. Each answer is retrieved from a knowledge base of my work and quoted with citations; when nothing supports an answer, it abstains.
+
+<!--faq:start-->
+<details>
+<summary><b>what do you work on right now?</b></summary>
+
+> Since March 2026 he has been an AI Research Engineer at the Center for Global Mental Health Equity (CGMHE) at GWU, building LLM systems for WHO and UNICEF mental health programs. **[1]**
+
+<sub>[1] <a href="https://nik-hill-323.github.io/Nikhil_Obuleni/#experience">AI Research Engineer · CGMHE (Mar 2026 – now)</a> · BM25 4.12 · coverage 100%</sub>
+
+</details>
+<details>
+<summary><b>have you shipped RAG in production?</b></summary>
+
+> He designed a production RAG system (FAISS, LangChain, FastAPI) grounding LLM output in EQUIP/ENACT clinical rubrics, with chunking, reranking, and a hallucination-flagging layer. **[1]**
+>
+> He shipped an LLM agent pipeline (LangChain, OpenAI API) that automates counselor competency scoring across 26K+ multilingual clinical transcripts in 25 countries. **[1]**
+
+<sub>[1] <a href="https://nik-hill-323.github.io/Nikhil_Obuleni/#experience">AI Research Engineer · CGMHE (Mar 2026 – now)</a> · BM25 4.05 · coverage 56%</sub>
+
+</details>
+<details>
+<summary><b>which languages did the evaluation cover?</b></summary>
+
+> He ran LLM evaluation experiments (RAGAS, DeepEval) comparing GPT-4 and Claude against human-annotated ground truth across 14 languages. **[1]**
+>
+> The evaluation found a 23% calibration gap on low-resource languages, which fed into a joint OpenAI collaboration on clinical LLM deployment. **[1]**
+>
+> For RAG infrastructure and evaluation he uses FAISS, Pinecone, Qdrant, pgvector, vLLM, Ollama, RAGAS, DeepEval, LangSmith, and MLflow. **[2]**
+
+<sub>[1] <a href="https://nik-hill-323.github.io/Nikhil_Obuleni/#experience">AI Research Engineer · CGMHE (Mar 2026 – now)</a> · [2] <a href="https://nik-hill-323.github.io/Nikhil_Obuleni/#skills">Stack</a> · BM25 3.36 · coverage 100%</sub>
+
+</details>
+<details>
+<summary><b>have you used Airflow?</b></summary>
+
+> For data engineering he uses SQL, PostgreSQL, MongoDB, Apache Airflow, BigQuery, PySpark, and Pandas. **[1]**
+>
+> He built Airflow and AWS (S3, EC2) pipelines ingesting 500K+ patient records into PostgreSQL across 25+ countries on a $2.9M NIMH grant. **[2]**
+
+<sub>[1] <a href="https://nik-hill-323.github.io/Nikhil_Obuleni/#skills">Stack</a> · [2] <a href="https://nik-hill-323.github.io/Nikhil_Obuleni/#experience">AI Research Engineer · CGMHE (Mar 2026 – now)</a> · BM25 3.51 · coverage 100%</sub>
+
+</details>
+<details>
+<summary><b>computer vision experience?</b></summary>
+
+> He built computer vision models (YOLOv5, Faster R-CNN) for real-time drone object detection, improving surveillance efficiency 30%. **[1]**
+
+<sub>[1] <a href="https://nik-hill-323.github.io/Nikhil_Obuleni/#experience">Data Science Intern · Asteria Aerospace (2023)</a> · BM25 7.85 · coverage 100%</sub>
+
+</details>
+<details>
+<summary><b>are you open to work?</b></summary>
+
+> He is open to AI engineer and data scientist roles starting January 2027. **[1]**
+>
+> If you work on AI for health and want a second pair of eyes on an evaluation setup, his inbox is open. **[1]**
+>
+> ragcheck is the open-source distillation of his clinical LLM evaluation work. **[2]**
+
+<sub>[1] <a href="https://www.linkedin.com/in/nikhil-obuleni">Contact & availability</a> · [2] <a href="https://github.com/nik-hill-323/ragcheck">ragcheck</a> · BM25 4.58 · coverage 100%</sub>
+
+</details>
+<details>
+<summary><b>what's your favorite pizza?</b></summary>
+
+**🤷 Abstained.** None of the words in your question (favorite, pizza) appear in my sources, so I won't guess.
+
+<sub>BM25 0 · coverage 0%. A system for clinicians has to be able to say "I don't know".</sub>
+
+</details>
+<!--faq:end-->
+
+<a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=ask%3A%20have%20you%20used%20Airflow%3F&body=Replace%20the%20example%20in%20the%20title%20with%20your%20own%20question%20%28keep%20the%20%60ask%3A%60%20prefix%29%2C%20then%20click%20%2A%2ACreate%2A%2A.%20My%20profile%20agent%20answers%20here%20in%20about%2030%20seconds%20with%20citations%2C%20or%20abstains%2C%20then%20closes%20the%20issue.%0A%0A_Only%20the%20title%20is%20read.%20Your%20question%20text%20is%20not%20posted%20on%20my%20profile._"><img alt="ask your own question" src="https://img.shields.io/badge/%E2%9C%8E%20ask%20your%20own-1f6feb?style=for-the-badge"></a>&nbsp; <sub>Opens an issue; the same agent answers there in about 30 seconds. Five questions per visitor per day.</sub>
 
 <!--asks:start-->
 _No questions yet. Be the first._
 <!--asks:end-->
 
-<sub>Same retrieval as the <a href="https://nik-hill-323.github.io/nik-hill-323/#terminal">live terminal</a>: BM25 over <a href="game/corpus.json"><code>game/corpus.json</code></a>, in <a href="site/rag.js"><code>site/rag.js</code></a>. No model, no API key. Five questions per visitor per day.</sub>
-
-
 ## two truths and a hallucination
 
-One of these claims about me is made up, the way an LLM makes things up: a number that drifted, a name that got swapped, a claim turned backwards. Click the one you think is fake, then **Create**. A GitHub Action checks your answer in about 30 seconds, cites the sources, and puts you on the board. New round every day.
+One of these claims about me is made up, the way an LLM makes things up: a number that drifted, a name that got swapped, a claim turned backwards. Click the one you think is fake to see if you caught it. New round every day.
 
 <!--game:start-->
-**Round 1** · started 2026-10-18
+**Round 1** · started 2026-10-18 · click the claim you think is made up
 
-| | claim | |
-|:-:|:--|:-:|
-| **A** | The counselor-scoring agent pipeline cut per-session review from 45 minutes to 4. | <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r01+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+1.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._"><img alt="guess A" src="https://img.shields.io/badge/%E2%96%B6%20A%20is%20made%20up-161b22?style=for-the-badge"></a> |
-| **B** | `sepsis-prediction` flags ICU sepsis risk 24 to 48 hours early. | <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r01+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+1.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._"><img alt="guess B" src="https://img.shields.io/badge/%E2%96%B6%20B%20is%20made%20up-161b22?style=for-the-badge"></a> |
-| **C** | `abtest-kit`'s peeking demo: a naive t-test gives 32% false positives, mSPRT gives 1.8%. | <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r01+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+1.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._"><img alt="guess C" src="https://img.shields.io/badge/%E2%96%B6%20C%20is%20made%20up-161b22?style=for-the-badge"></a> |
+<details>
+<summary><b>A</b> · The counselor-scoring agent pipeline cut per-session review from 45 minutes to 4.</summary>
 
-<sub>No guesses yet this round. Be the first.</sub>
+❌ **Fooled. This one is true.** [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience) Open another one.
+
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r01+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+1.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+
+</details>
+<details>
+<summary><b>B</b> · <code>sepsis-prediction</code> flags ICU sepsis risk 24 to 48 hours early.</summary>
+
+🎯 **Caught it. This is the hallucination** (number drift). It flags risk 6 to 12 hours early. [source](https://github.com/nik-hill-323/sepsis-prediction)
+
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r01+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+1.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+
+</details>
+<details>
+<summary><b>C</b> · <code>abtest-kit</code>'s peeking demo: a naive t-test gives 32% false positives, mSPRT gives 1.8%.</summary>
+
+❌ **Fooled. This one is true.** [source](https://github.com/nik-hill-323/abtest-kit) Open another one.
+
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r01+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+1.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+
+</details>
+
+<sub>No leaderboard guesses yet this round.</sub>
 <!--game:end-->
 
 <details>

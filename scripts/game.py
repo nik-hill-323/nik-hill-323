@@ -68,33 +68,42 @@ def guess_url(n: int, letter: str) -> str:
     return f"https://github.com/{REPO}/issues/new?{q}"
 
 
-def badge(letter: str) -> str:
-    return f"https://img.shields.io/badge/%E2%96%B6%20{letter}%20is%20made%20up-161b22?style=for-the-badge"
-
-
 def render_game(state: dict, guesses: list[dict]) -> str:
     n = state["round"]
     this = [g for g in guesses if g["round"] == n]
-    rows = "\n".join(
-        f'| **{LETTERS[i]}** | {c["text"]} | <a href="{guess_url(n, LETTERS[i])}">'
-        f'<img alt="guess {LETTERS[i]}" src="{badge(LETTERS[i])}"></a> |'
-        for i, c in enumerate(claims(n))
-    )
+    items = []
+    for i, c in enumerate(claims(n)):
+        letter = LETTERS[i]
+        text = c["text"]
+        if c["fake"]:
+            verdict = f"🎯 **Caught it. This is the hallucination** ({c['kind']}). {c['truth']} [source]({c['source']})"
+        else:
+            verdict = f"❌ **Fooled. This one is true.** [source]({c['source']}) Open another one."
+        items.append(
+            f"<details>\n<summary><b>{letter}</b> · {to_html(text)}</summary>\n\n{verdict}\n\n"
+            f'<sub><a href="{guess_url(n, letter)}">Put {letter} on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>\n\n</details>'
+        )
     if this:
         fooled = sum(not g["correct"] for g in this)
-        tally = f"{len(this)} guess{'es' if len(this) != 1 else ''} this round · the hallucination has fooled **{round(100 * fooled / len(this))}%** so far."
+        tally = f"{len(this)} leaderboard guess{'es' if len(this) != 1 else ''} this round · the hallucination has fooled **{round(100 * fooled / len(this))}%**."
     else:
-        tally = "No guesses yet this round. Be the first."
+        tally = "No leaderboard guesses yet this round."
     prev = ""
     if state.get("previous") is not None:
         p = state["previous"]
         f = ROUNDS[p]["fake"]
         prev = (
-            f"\n\n<details>\n<summary><b>Yesterday's answer</b> · round {p + 1}</summary>\n\n"
+            f"\n\n<details>\n<summary>Yesterday's answer · round {p + 1}</summary>\n\n"
             f"**{fake_letter(p)}** was made up ({f['kind']}): _{f['text']}_  \n"
             f"{f['truth']} [source]({f['source']})\n\n</details>"
         )
-    return f"**Round {n + 1}** · started {state['started']}\n\n| | claim | |\n|:-:|:--|:-:|\n{rows}\n\n<sub>{tally}</sub>{prev}"
+    return f"**Round {n + 1}** · started {state['started']} · click the claim you think is made up\n\n" + "\n".join(items) + f"\n\n<sub>{tally}</sub>{prev}"
+
+
+def to_html(s: str) -> str:
+    """Claim text for inside <summary>, where Markdown does not render."""
+    s = s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    return re.sub(r"`([^`]+)`", r"<code>\1</code>", s)
 
 
 def render_board(guesses: list[dict]) -> str:
