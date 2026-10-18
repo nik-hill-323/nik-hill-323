@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
-  <img alt="Nikhil Obuleni. AI research engineer. Retrieve, ground, evaluate, decide." src="banner-light.svg" width="100%">
+  <img alt="Animated terminal: a medical question goes through medrag-toolkit, which retrieves three sources, answers with citations and drops the one unsupported sentence; ragcheck then scores the answer and gates the release." src="banner-light.svg" width="100%">
 </picture>
 
 ## two truths and a hallucination
