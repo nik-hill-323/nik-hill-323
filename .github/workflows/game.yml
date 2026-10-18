@@ -1,0 +1,44 @@
+name: Hallucination game
+
+on:
+  issues:
+    types: [opened]
+  schedule:
+    - cron: "3 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+# One run at a time, so two guesses never race to push README.md.
+concurrency:
+  group: game
+  cancel-in-progress: false
+
+jobs:
+  play:
+    # startsWith is case-insensitive; every other issue is left alone.
+    if: github.event_name != 'issues' || startsWith(github.event.issue.title, 'guess')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Judge the guess
+        if: github.event_name == 'issues'
+        run: python scripts/game.py judge
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Start the next round
+        if: github.event_name != 'issues'
+        run: python scripts/game.py advance
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md game/
+          git diff --cached --quiet && exit 0
+          git commit -m "Update hallucination game"
+          git pull --rebase origin "${GITHUB_REF_NAME}" && git push
