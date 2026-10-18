@@ -1,7 +1,31 @@
+<a href="https://nik-hill-323.github.io/nik-hill-323/#terminal">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="banner-dark.svg">
   <img alt="Animated terminal: a medical question goes through medrag-toolkit, which retrieves three sources, answers with citations and drops the one unsupported sentence; ragcheck then scores the answer and gates the release." src="banner-light.svg" width="100%">
 </picture>
+</a>
+
+<p align="center"><b>▶ This page is a snapshot. The live version is interactive:</b> <a href="https://nik-hill-323.github.io/nik-hill-323/#terminal">type in the terminal</a> · <a href="https://nik-hill-323.github.io/nik-hill-323/#retrieval">watch retrieval step by step</a> · <a href="https://nik-hill-323.github.io/nik-hill-323/#game">play the game</a> · <a href="https://nik-hill-323.github.io/nik-hill-323/#map">drag the map</a></p>
+
+## ask my profile
+
+Ask my profile agent a question without leaving GitHub. Click one, then **Create**. A GitHub Action searches a knowledge base of my work and answers in your issue in about 30 seconds, quoting its sources with citations. If nothing in the sources supports an answer, it abstains instead of guessing. Try the pizza one.
+
+<p>
+  <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=ask%3A%20what%20do%20you%20work%20on%20right%20now%3F&body=Click%20%2A%2ACreate%2A%2A%20to%20ask.%20My%20profile%20agent%20answers%20here%20in%20about%2030%20seconds%20with%20citations%20from%20my%20work%2C%20or%20abstains%20if%20nothing%20supports%20an%20answer%2C%20then%20closes%20the%20issue.%0A%0A_Only%20the%20title%20is%20read.%20Your%20question%20text%20is%20not%20posted%20on%20my%20profile._"><img alt="ask: what do you work on right now?" src="https://img.shields.io/badge/%E2%96%B6%20now%3F-161b22?style=for-the-badge"></a>
+  <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=ask%3A%20have%20you%20shipped%20RAG%20in%20production%3F&body=Click%20%2A%2ACreate%2A%2A%20to%20ask.%20My%20profile%20agent%20answers%20here%20in%20about%2030%20seconds%20with%20citations%20from%20my%20work%2C%20or%20abstains%20if%20nothing%20supports%20an%20answer%2C%20then%20closes%20the%20issue.%0A%0A_Only%20the%20title%20is%20read.%20Your%20question%20text%20is%20not%20posted%20on%20my%20profile._"><img alt="ask: have you shipped RAG in production?" src="https://img.shields.io/badge/%E2%96%B6%20RAG%20in%20prod%3F-161b22?style=for-the-badge"></a>
+  <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=ask%3A%20which%20languages%20did%20the%20evaluation%20cover%3F&body=Click%20%2A%2ACreate%2A%2A%20to%20ask.%20My%20profile%20agent%20answers%20here%20in%20about%2030%20seconds%20with%20citations%20from%20my%20work%2C%20or%20abstains%20if%20nothing%20supports%20an%20answer%2C%20then%20closes%20the%20issue.%0A%0A_Only%20the%20title%20is%20read.%20Your%20question%20text%20is%20not%20posted%20on%20my%20profile._"><img alt="ask: which languages did the evaluation cover?" src="https://img.shields.io/badge/%E2%96%B6%20languages%3F-161b22?style=for-the-badge"></a>
+  <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=ask%3A%20are%20you%20open%20to%20work%3F&body=Click%20%2A%2ACreate%2A%2A%20to%20ask.%20My%20profile%20agent%20answers%20here%20in%20about%2030%20seconds%20with%20citations%20from%20my%20work%2C%20or%20abstains%20if%20nothing%20supports%20an%20answer%2C%20then%20closes%20the%20issue.%0A%0A_Only%20the%20title%20is%20read.%20Your%20question%20text%20is%20not%20posted%20on%20my%20profile._"><img alt="ask: are you open to work?" src="https://img.shields.io/badge/%E2%96%B6%20open%20to%20work%3F-161b22?style=for-the-badge"></a>
+  <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=ask%3A%20what%27s%20your%20favorite%20pizza%3F&body=Click%20%2A%2ACreate%2A%2A%20to%20ask.%20My%20profile%20agent%20answers%20here%20in%20about%2030%20seconds%20with%20citations%20from%20my%20work%2C%20or%20abstains%20if%20nothing%20supports%20an%20answer%2C%20then%20closes%20the%20issue.%0A%0A_Only%20the%20title%20is%20read.%20Your%20question%20text%20is%20not%20posted%20on%20my%20profile._"><img alt="ask: what's your favorite pizza?" src="https://img.shields.io/badge/%E2%96%B6%20pizza%3F-161b22?style=for-the-badge"></a>
+  <a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=ask%3A%20have%20you%20used%20Airflow%3F&body=Replace%20the%20example%20in%20the%20title%20with%20your%20own%20question%20%28keep%20the%20%60ask%3A%60%20prefix%29%2C%20then%20click%20%2A%2ACreate%2A%2A.%20My%20profile%20agent%20answers%20here%20in%20about%2030%20seconds%20with%20citations%2C%20or%20abstains%2C%20then%20closes%20the%20issue.%0A%0A_Only%20the%20title%20is%20read.%20Your%20question%20text%20is%20not%20posted%20on%20my%20profile._"><img alt="ask your own question" src="https://img.shields.io/badge/%E2%9C%8E%20ask%20your%20own-1f6feb?style=for-the-badge"></a>
+</p>
+
+<!--asks:start-->
+_No questions yet. Be the first._
+<!--asks:end-->
+
+<sub>Same retrieval as the <a href="https://nik-hill-323.github.io/nik-hill-323/#terminal">live terminal</a>: BM25 over <a href="game/corpus.json"><code>game/corpus.json</code></a>, in <a href="site/rag.js"><code>site/rag.js</code></a>. No model, no API key. Five questions per visitor per day.</sub>
+
 
 ## two truths and a hallucination
 

@@ -1,0 +1,212 @@
+[
+ {
+  "id": "whoami",
+  "kind": "about",
+  "title": "About Nikhil",
+  "url": "https://nik-hill-323.github.io/Nikhil_Obuleni/#about",
+  "tags": "who are you about yourself introduce background summary nikhil obuleni",
+  "sents": [
+   "Nikhil Obuleni is an AI research engineer in Washington, DC who builds LLM and retrieval systems that run in production.",
+   "He builds LLM systems for people who cannot afford a wrong answer: clinicians, counselors, and field teams in low-resource settings.",
+   "Most of what he builds runs against real clinical and humanitarian data, so accuracy and traceability matter more than benchmark scores.",
+   "His work covers agent pipelines, retrieval systems, evaluation, and the data infrastructure that feeds them."
+  ]
+ },
+ {
+  "id": "cgmhe",
+  "kind": "role",
+  "title": "AI Research Engineer · CGMHE (Mar 2026 – now)",
+  "url": "https://nik-hill-323.github.io/Nikhil_Obuleni/#experience",
+  "tags": "now current job role work today employer center for global mental health equity gwu who unicef",
+  "sents": [
+   "Since March 2026 he has been an AI Research Engineer at the Center for Global Mental Health Equity (CGMHE) at GWU, building LLM systems for WHO and UNICEF mental health programs.",
+   "He shipped an LLM agent pipeline (LangChain, OpenAI API) that automates counselor competency scoring across 26K+ multilingual clinical transcripts in 25 countries.",
+   "That pipeline cut per-session review time from 45 minutes to 4 and replaced a fully manual WHO/UNICEF evaluation process.",
+   "He designed a production RAG system (FAISS, LangChain, FastAPI) grounding LLM output in EQUIP/ENACT clinical rubrics, with chunking, reranking, and a hallucination-flagging layer.",
+   "The RAG system reduced the factual error rate by roughly 40% on held-out multilingual benchmarks.",
+   "He ran LLM evaluation experiments (RAGAS, DeepEval) comparing GPT-4 and Claude against human-annotated ground truth across 14 languages.",
+   "The evaluation found a 23% calibration gap on low-resource languages, which fed into a joint OpenAI collaboration on clinical LLM deployment.",
+   "He built Airflow and AWS (S3, EC2) pipelines ingesting 500K+ patient records into PostgreSQL across 25+ countries on a $2.9M NIMH grant.",
+   "Those pipelines cut integration latency 83% and reporting time 60%."
+  ]
+ },
+ {
+  "id": "dssd",
+  "kind": "role",
+  "title": "ML Engineer · Data Science for Sustainable Development (2025 – 2026)",
+  "url": "https://nik-hill-323.github.io/Nikhil_Obuleni/#experience",
+  "tags": "previous before ngo nonprofit dssd sustainability forecasting",
+  "sents": [
+   "From February 2025 to May 2026 he was a part-time ML Engineer at Data Science for Sustainable Development.",
+   "He automated ingestion of unstructured sustainability reports with NLP pipelines (spaCy, Hugging Face) and LLM-assisted extraction (OpenAI API, LangChain), cutting manual data prep by roughly 60% per project cycle.",
+   "He developed open-source REST APIs (FastAPI) and data pipelines for nonprofit and government partners, with automated schema validation.",
+   "He deployed ARIMA, LSTM, and XGBoost ensemble models on 200K+ humanitarian records across 18 countries, reaching 78% weighted F1 on disaster impact forecasting."
+  ]
+ },
+ {
+  "id": "asteria",
+  "kind": "role",
+  "title": "Data Science Intern · Asteria Aerospace (2023)",
+  "url": "https://nik-hill-323.github.io/Nikhil_Obuleni/#experience",
+  "tags": "internship intern drone computer vision india bangalore first job",
+  "sents": [
+   "In summer 2023 he was a Data Science Intern at Asteria Aerospace in Bangalore, India.",
+   "He built computer vision models (YOLOv5, Faster R-CNN) for real-time drone object detection, improving surveillance efficiency 30%.",
+   "He added anomaly detection with autoencoders and Isolation Forest that improved fault detection 40%.",
+   "He deployed predictive maintenance models (LSTM, Random Forest) that reduced unexpected breakdowns 25%.",
+   "He ran geospatial analysis on GIS, LiDAR, and satellite imagery, improving drone navigation accuracy 20%."
+  ]
+ },
+ {
+  "id": "education",
+  "kind": "education",
+  "title": "M.S. Data Science · George Washington University",
+  "url": "https://nik-hill-323.github.io/Nikhil_Obuleni/#education",
+  "tags": "school degree university study studied masters graduate graduation gpa gw gwu education",
+  "sents": [
+   "He is studying for an M.S. in Data Science at George Washington University, from January 2025 to December 2026, with a 3.75 GPA.",
+   "He holds a Global Leaders (CCAS) Fellowship worth $17,100.",
+   "His coursework includes machine learning, deep learning, natural language processing, statistical modeling, data mining, and data visualization."
+  ]
+ },
+ {
+  "id": "medrag-toolkit",
+  "kind": "project",
+  "title": "medrag-toolkit",
+  "url": "https://github.com/nik-hill-323/medrag-toolkit",
+  "tags": "rag retrieval medical question answering pubmed openfda rxnorm grounding citations abstain hybrid",
+  "sents": [
+   "medrag-toolkit is a modular RAG framework for medical question answering with connectors to PubMed (36M+ abstracts), RxNorm, and OpenFDA.",
+   "Every medrag-toolkit response enforces citation grounding: each sentence is checked against its source, unsupported sentences are dropped, and it abstains rather than guesses.",
+   "It uses hybrid retrieval, combining dense FAISS with sparse BM25 over Qdrant.",
+   "A streaming FastAPI layer supports local backends (Ollama, vLLM) as well as cloud LLMs, and it is benchmarked on MedQA and MedMCQA."
+  ]
+ },
+ {
+  "id": "ragcheck",
+  "kind": "project",
+  "title": "ragcheck",
+  "url": "https://github.com/nik-hill-323/ragcheck",
+  "tags": "evaluation eval rag faithfulness hallucination ci gate testing metrics",
+  "sents": [
+   "ragcheck scores retrieval, faithfulness, relevance, and citation coverage separately, and prints the exact sentences a RAG answer made up.",
+   "ragcheck has an offline judge for CI, an LLM judge for depth, and a gate command that fails the build.",
+   "ragcheck is the open-source distillation of his clinical LLM evaluation work."
+  ]
+ },
+ {
+  "id": "abtest-kit",
+  "kind": "project",
+  "title": "abtest-kit",
+  "url": "https://github.com/nik-hill-323/abtest-kit",
+  "tags": "ab testing experiments statistics bayesian sequential cuped peeking power analysis",
+  "sents": [
+   "abtest-kit covers power analysis, z and Welch tests, Bayesian expected loss, always-valid sequential tests, and CUPED.",
+   "Each abtest-kit method is tested against an independent reference.",
+   "In the abtest-kit peeking demo, a naive t-test gives 32% false positives while mSPRT gives 1.8%."
+  ]
+ },
+ {
+  "id": "planmoe",
+  "kind": "project",
+  "title": "PlanMoE",
+  "url": "https://github.com/nik-hill-323/planmoe",
+  "tags": "mixture of experts generative floor plan gcn quantization deep learning",
+  "sents": [
+   "PlanMoE is a generative floor plan designer: a custom mixture of experts with a 3-layer GCN encoder and a transposed-convolution mask decoder.",
+   "In PlanMoE each expert specializes in one room-type layout, and a learned gating network routes room-constraint graphs to the right expert.",
+   "PlanMoE is deployed as a Hugging Face Space, and INT8 post-training quantization cut inference latency 52%."
+  ]
+ },
+ {
+  "id": "sepsis-prediction",
+  "kind": "project",
+  "title": "sepsis-prediction",
+  "url": "https://github.com/nik-hill-323/sepsis-prediction",
+  "tags": "icu healthcare clinical time series early warning",
+  "sents": [
+   "sepsis-prediction is a bidirectional LSTM that flags ICU patients at risk of sepsis 6 to 12 hours early, ahead of clinical diagnosis."
+  ]
+ },
+ {
+  "id": "skiavox",
+  "kind": "project",
+  "title": "skiavox",
+  "url": "https://github.com/nik-hill-323/skiavox",
+  "tags": "radiology chest x-ray medical imaging computer vision explainability",
+  "sents": [
+   "skiavox is a chest X-ray ensemble with Grad-CAM explanations that takes DICOM files in."
+  ]
+ },
+ {
+  "id": "mindscope",
+  "kind": "project",
+  "title": "mindscope",
+  "url": "https://github.com/nik-hill-323/mindscope",
+  "tags": "mental health nlp benchmark classification",
+  "sents": [
+   "mindscope is a mental health NLP benchmark covering 15+ conditions with BERT and Claude baselines."
+  ]
+ },
+ {
+  "id": "clinical-rag",
+  "kind": "project",
+  "title": "Clinical RAG Evaluation System",
+  "url": "https://nik-hill-323.github.io/Nikhil_Obuleni/#projects",
+  "tags": "rag guidelines who nimh pinecone lambda guardrails prompt injection",
+  "sents": [
+   "The Clinical RAG Evaluation System is a RAG pipeline over 5,000+ WHO and NIMH clinical guidelines, deployed on AWS Lambda behind FastAPI.",
+   "It uses LangChain and Pinecone for retrieval, prompt-injection guardrails on the input path, and LangSmith for evaluation logging.",
+   "Benchmarked with RAGAS and tested with 3 clinical reviewers, it reached 91% response relevance, 38% fewer hallucinations, and 45% faster verification."
+  ]
+ },
+ {
+  "id": "netflix",
+  "kind": "project",
+  "title": "Netflix-Recommendation-Churn",
+  "url": "https://github.com/nik-hill-323/Netflix-Recommendation-Churn",
+  "tags": "recommender recommendation system gnn graph churn streaming",
+  "sents": [
+   "His content recommendation project is a graph neural network and collaborative filtering engine over 10M+ viewer records.",
+   "An XGBoost and LSTM churn model on the same subscriber features reached 92% churn accuracy, with a 35% engagement lift."
+  ]
+ },
+ {
+  "id": "forecasting-repos",
+  "kind": "project",
+  "title": "Forecasting and churn repos",
+  "url": "https://github.com/nik-hill-323?tab=repositories",
+  "tags": "traffic accident retail demand telecom churn prophet pyspark kmeans segmentation",
+  "sents": [
+   "Traffic-Accident-Prediction uses LSTM and Prophet time-series models with geospatial analysis to find high-risk hotspots.",
+   "Retail-Demand-Forecasting forecasts demand with XGBoost and PySpark, plus a markdown optimization step.",
+   "Telecom-Churn-Analysis models churn and segments customers with logistic regression, random forest, and K-means."
+  ]
+ },
+ {
+  "id": "stack",
+  "kind": "skills",
+  "title": "Stack",
+  "url": "https://nik-hill-323.github.io/Nikhil_Obuleni/#skills",
+  "tags": "skills tools stack technologies languages frameworks know use experience",
+  "sents": [
+   "For generative AI he uses the OpenAI and Anthropic (Claude) APIs, LangChain, LangGraph, embeddings, vector search, and multi-agent systems.",
+   "For RAG infrastructure and evaluation he uses FAISS, Pinecone, Qdrant, pgvector, vLLM, Ollama, RAGAS, DeepEval, LangSmith, and MLflow.",
+   "For machine learning he uses Python, PyTorch, TensorFlow, scikit-learn, XGBoost, LightGBM, BERT, spaCy, and Hugging Face.",
+   "For data engineering he uses SQL, PostgreSQL, MongoDB, Apache Airflow, BigQuery, PySpark, and Pandas.",
+   "For cloud and deployment he uses AWS (Lambda, EC2, S3, SageMaker), GCP, Docker, FastAPI, and GitHub Actions."
+  ]
+ },
+ {
+  "id": "contact",
+  "kind": "contact",
+  "title": "Contact & availability",
+  "url": "https://www.linkedin.com/in/nikhil-obuleni",
+  "tags": "contact email reach hire hiring open to work available availability job roles linkedin resume",
+  "sents": [
+   "You can reach him at nikhil.obuleni@gwu.edu or on LinkedIn at linkedin.com/in/nikhil-obuleni.",
+   "He is open to AI engineer and data scientist roles starting January 2027.",
+   "If you work on AI for health and want a second pair of eyes on an evaluation setup, his inbox is open."
+  ]
+ }
+]
