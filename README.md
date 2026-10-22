@@ -98,40 +98,40 @@ _No questions yet. Be the first._
 One of these claims about me is made up, the way an LLM makes things up: a number that drifted, a name that got swapped, a claim turned backwards. Click the one you think is fake to see if you caught it. New round every day.
 
 <!--game:start-->
-**Round 4** · started 2026-10-21 · click the claim you think is made up
+**Round 5** · started 2026-10-22 · click the claim you think is made up
 
 <details>
-<summary><b>A</b> · <code>mindscope</code> benchmarks mental health NLP across 15+ conditions with BERT and Claude baselines.</summary>
+<summary><b>A</b> · <code>abtest-kit</code>'s peeking demo: mSPRT gives 32% false positives, a naive t-test gives 1.8%.</summary>
 
-❌ **Fooled. This one is true.** [source](https://github.com/nik-hill-323/mindscope) Open another one.
+🎯 **Caught it. This is the hallucination** (swapped values). Backwards. The naive t-test is the 32% one; mSPRT holds it to 1.8%. [source](https://github.com/nik-hill-323/abtest-kit)
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r04+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+4.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r05+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+5.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 <details>
-<summary><b>B</b> · The 14-language evaluation found the calibration gap on high-resource languages, not low-resource ones.</summary>
-
-🎯 **Caught it. This is the hallucination** (entity swap). The 23% gap was on low-resource languages. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience)
-
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r04+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+4.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
-
-</details>
-<details>
-<summary><b>C</b> · The data pipelines at CGMHE run on a $2.9M NIMH grant.</summary>
+<summary><b>B</b> · Clinical-rubric RAG with reranking and hallucination flagging cut the factual error rate by about 40%.</summary>
 
 ❌ **Fooled. This one is true.** [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience) Open another one.
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r04+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+4.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r05+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+5.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+
+</details>
+<details>
+<summary><b>C</b> · Nikhil did drone object detection and predictive maintenance at Asteria Aerospace in Bangalore.</summary>
+
+❌ **Fooled. This one is true.** [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience) Open another one.
+
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r05+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+5.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 
 <sub>No leaderboard guesses yet this round.</sub>
 
 <details>
-<summary>Yesterday's answer · round 3</summary>
+<summary>Yesterday's answer · round 4</summary>
 
-**C** was made up (number drift): _The humanitarian forecasting ensemble reached 92% weighted F1 across 40 countries._  
-78% weighted F1, on 200K+ records across 18 countries. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience)
+**B** was made up (entity swap): _The 14-language evaluation found the calibration gap on high-resource languages, not low-resource ones._  
+The 23% gap was on low-resource languages. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience)
 
 </details>
 <!--game:end-->
