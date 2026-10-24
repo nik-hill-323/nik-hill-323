@@ -98,40 +98,40 @@ _No questions yet. Be the first._
 One of these claims about me is made up, the way an LLM makes things up: a number that drifted, a name that got swapped, a claim turned backwards. Click the one you think is fake to see if you caught it. New round every day.
 
 <!--game:start-->
-**Round 6** · started 2026-10-23 · click the claim you think is made up
+**Round 7** · started 2026-10-24 · click the claim you think is made up
 
 <details>
-<summary><b>A</b> · The counselor-scoring pipeline covers 26K+ multilingual transcripts in 25 countries.</summary>
+<summary><b>A</b> · Every chart on the portfolio site is hand-written SVG, with no charting library.</summary>
 
-❌ **Fooled. This one is true.** [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience) Open another one.
+❌ **Fooled. This one is true.** [source](https://github.com/nik-hill-323/Nikhil_Obuleni) Open another one.
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r06+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+6.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r07+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+7.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 <details>
-<summary><b>B</b> · Nikhil holds a $17,100 Global Leaders (CCAS) Fellowship at GWU.</summary>
+<summary><b>B</b> · Nikhil finished the M.S. in Data Science at GWU in May 2025 with a 3.95 GPA.</summary>
 
-❌ **Fooled. This one is true.** [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#education) Open another one.
+🎯 **Caught it. This is the hallucination** (number drift). GPA 3.75, finishing December 2026. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#education)
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r06+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+6.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r07+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+7.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 <details>
-<summary><b>C</b> · The counselor-scoring pipeline is built on LlamaIndex and Gemini.</summary>
+<summary><b>C</b> · <code>sepsis-prediction</code> is a BiLSTM that flags ICU sepsis risk 6 to 12 hours early.</summary>
 
-🎯 **Caught it. This is the hallucination** (entity swap). It is built on LangChain and the OpenAI API. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience)
+❌ **Fooled. This one is true.** [source](https://github.com/nik-hill-323/sepsis-prediction) Open another one.
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r06+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+6.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r07+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+7.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 
 <sub>No leaderboard guesses yet this round.</sub>
 
 <details>
-<summary>Yesterday's answer · round 5</summary>
+<summary>Yesterday's answer · round 6</summary>
 
-**A** was made up (swapped values): _`abtest-kit`'s peeking demo: mSPRT gives 32% false positives, a naive t-test gives 1.8%._  
-Backwards. The naive t-test is the 32% one; mSPRT holds it to 1.8%. [source](https://github.com/nik-hill-323/abtest-kit)
+**C** was made up (entity swap): _The counselor-scoring pipeline is built on LlamaIndex and Gemini._  
+It is built on LangChain and the OpenAI API. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience)
 
 </details>
 <!--game:end-->
