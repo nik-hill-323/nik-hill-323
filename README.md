@@ -98,40 +98,40 @@ _No questions yet. Be the first._
 One of these claims about me is made up, the way an LLM makes things up: a number that drifted, a name that got swapped, a claim turned backwards. Click the one you think is fake to see if you caught it. New round every day.
 
 <!--game:start-->
-**Round 7** · started 2026-10-24 · click the claim you think is made up
+**Round 8** · started 2026-10-25 · click the claim you think is made up
 
 <details>
-<summary><b>A</b> · Every chart on the portfolio site is hand-written SVG, with no charting library.</summary>
+<summary><b>A</b> · <code>mindscope</code> covers 50+ conditions with GPT-2 baselines.</summary>
 
-❌ **Fooled. This one is true.** [source](https://github.com/nik-hill-323/Nikhil_Obuleni) Open another one.
+🎯 **Caught it. This is the hallucination** (unsupported detail). It covers 15+ conditions with BERT and Claude baselines. [source](https://github.com/nik-hill-323/mindscope)
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r07+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+7.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r08+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+8.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 <details>
-<summary><b>B</b> · Nikhil finished the M.S. in Data Science at GWU in May 2025 with a 3.95 GPA.</summary>
+<summary><b>B</b> · <code>medrag-toolkit</code> answers medical questions over PubMed, OpenFDA and RxNorm.</summary>
 
-🎯 **Caught it. This is the hallucination** (number drift). GPA 3.75, finishing December 2026. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#education)
+❌ **Fooled. This one is true.** [source](https://github.com/nik-hill-323/medrag-toolkit) Open another one.
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r07+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+7.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r08+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+8.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 <details>
-<summary><b>C</b> · <code>sepsis-prediction</code> is a BiLSTM that flags ICU sepsis risk 6 to 12 hours early.</summary>
+<summary><b>C</b> · The CGMHE pipelines cut data integration latency by 83%.</summary>
 
-❌ **Fooled. This one is true.** [source](https://github.com/nik-hill-323/sepsis-prediction) Open another one.
+❌ **Fooled. This one is true.** [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience) Open another one.
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r07+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+7.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r08+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+8.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 
 <sub>No leaderboard guesses yet this round.</sub>
 
 <details>
-<summary>Yesterday's answer · round 6</summary>
+<summary>Yesterday's answer · round 7</summary>
 
-**C** was made up (entity swap): _The counselor-scoring pipeline is built on LlamaIndex and Gemini._  
-It is built on LangChain and the OpenAI API. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience)
+**B** was made up (number drift): _Nikhil finished the M.S. in Data Science at GWU in May 2025 with a 3.95 GPA._  
+GPA 3.75, finishing December 2026. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#education)
 
 </details>
 <!--game:end-->
