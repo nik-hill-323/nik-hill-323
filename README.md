@@ -98,40 +98,40 @@ _No questions yet. Be the first._
 One of these claims about me is made up, the way an LLM makes things up: a number that drifted, a name that got swapped, a claim turned backwards. Click the one you think is fake to see if you caught it. New round every day.
 
 <!--game:start-->
-**Round 8** · started 2026-10-25 · click the claim you think is made up
+**Round 9** · started 2026-10-26 · click the claim you think is made up
 
 <details>
-<summary><b>A</b> · <code>mindscope</code> covers 50+ conditions with GPT-2 baselines.</summary>
-
-🎯 **Caught it. This is the hallucination** (unsupported detail). It covers 15+ conditions with BERT and Claude baselines. [source](https://github.com/nik-hill-323/mindscope)
-
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r08+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+8.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
-
-</details>
-<details>
-<summary><b>B</b> · <code>medrag-toolkit</code> answers medical questions over PubMed, OpenFDA and RxNorm.</summary>
-
-❌ **Fooled. This one is true.** [source](https://github.com/nik-hill-323/medrag-toolkit) Open another one.
-
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r08+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+8.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
-
-</details>
-<details>
-<summary><b>C</b> · The CGMHE pipelines cut data integration latency by 83%.</summary>
+<summary><b>A</b> · At DSSD, LLM-assisted extraction cut manual data prep by about 60% per project cycle.</summary>
 
 ❌ **Fooled. This one is true.** [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience) Open another one.
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r08+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+8.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r09+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+9.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+
+</details>
+<details>
+<summary><b>B</b> · The forecasting ensemble at DSSD combines ARIMA, LSTM and XGBoost.</summary>
+
+❌ **Fooled. This one is true.** [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience) Open another one.
+
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r09+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+9.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+
+</details>
+<details>
+<summary><b>C</b> · The CGMHE patient records are stored in MongoDB Atlas.</summary>
+
+🎯 **Caught it. This is the hallucination** (entity swap). They go into PostgreSQL. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience)
+
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r09+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+9.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 
 <sub>No leaderboard guesses yet this round.</sub>
 
 <details>
-<summary>Yesterday's answer · round 7</summary>
+<summary>Yesterday's answer · round 8</summary>
 
-**B** was made up (number drift): _Nikhil finished the M.S. in Data Science at GWU in May 2025 with a 3.95 GPA._  
-GPA 3.75, finishing December 2026. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#education)
+**A** was made up (unsupported detail): _`mindscope` covers 50+ conditions with GPT-2 baselines._  
+It covers 15+ conditions with BERT and Claude baselines. [source](https://github.com/nik-hill-323/mindscope)
 
 </details>
 <!--game:end-->
