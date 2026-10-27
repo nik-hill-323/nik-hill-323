@@ -98,40 +98,40 @@ _No questions yet. Be the first._
 One of these claims about me is made up, the way an LLM makes things up: a number that drifted, a name that got swapped, a claim turned backwards. Click the one you think is fake to see if you caught it. New round every day.
 
 <!--game:start-->
-**Round 9** · started 2026-10-26 · click the claim you think is made up
+**Round 10** · started 2026-10-27 · click the claim you think is made up
 
 <details>
-<summary><b>A</b> · At DSSD, LLM-assisted extraction cut manual data prep by about 60% per project cycle.</summary>
+<summary><b>A</b> · The 14-language evaluation compared GPT-4 and Claude against human-annotated ground truth.</summary>
 
 ❌ **Fooled. This one is true.** [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience) Open another one.
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r09+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+9.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r10+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+10.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 <details>
-<summary><b>B</b> · The forecasting ensemble at DSSD combines ARIMA, LSTM and XGBoost.</summary>
+<summary><b>B</b> · The counselor-scoring pipeline replaced a review process that was already half automated.</summary>
 
-❌ **Fooled. This one is true.** [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience) Open another one.
+🎯 **Caught it. This is the hallucination** (unsupported detail). It replaced a fully manual WHO/UNICEF evaluation process. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience)
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r09+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+9.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r10+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+10.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 <details>
-<summary><b>C</b> · The CGMHE patient records are stored in MongoDB Atlas.</summary>
+<summary><b>C</b> · <code>PlanMoE</code> is deployed on Hugging Face Spaces.</summary>
 
-🎯 **Caught it. This is the hallucination** (entity swap). They go into PostgreSQL. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience)
+❌ **Fooled. This one is true.** [source](https://github.com/nik-hill-323/planmoe) Open another one.
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r09+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+9.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r10+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+10.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 
 <sub>No leaderboard guesses yet this round.</sub>
 
 <details>
-<summary>Yesterday's answer · round 8</summary>
+<summary>Yesterday's answer · round 9</summary>
 
-**A** was made up (unsupported detail): _`mindscope` covers 50+ conditions with GPT-2 baselines._  
-It covers 15+ conditions with BERT and Claude baselines. [source](https://github.com/nik-hill-323/mindscope)
+**C** was made up (entity swap): _The CGMHE patient records are stored in MongoDB Atlas._  
+They go into PostgreSQL. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience)
 
 </details>
 <!--game:end-->
