@@ -98,40 +98,40 @@ _No questions yet. Be the first._
 One of these claims about me is made up, the way an LLM makes things up: a number that drifted, a name that got swapped, a claim turned backwards. Click the one you think is fake to see if you caught it. New round every day.
 
 <!--game:start-->
-**Round 10** · started 2026-10-27 · click the claim you think is made up
+**Round 1** · started 2026-10-28 · click the claim you think is made up
 
 <details>
-<summary><b>A</b> · The 14-language evaluation compared GPT-4 and Claude against human-annotated ground truth.</summary>
+<summary><b>A</b> · The counselor-scoring agent pipeline cut per-session review from 45 minutes to 4.</summary>
 
 ❌ **Fooled. This one is true.** [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience) Open another one.
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r10+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+10.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r01+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+1.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 <details>
-<summary><b>B</b> · The counselor-scoring pipeline replaced a review process that was already half automated.</summary>
+<summary><b>B</b> · <code>sepsis-prediction</code> flags ICU sepsis risk 24 to 48 hours early.</summary>
 
-🎯 **Caught it. This is the hallucination** (unsupported detail). It replaced a fully manual WHO/UNICEF evaluation process. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience)
+🎯 **Caught it. This is the hallucination** (number drift). It flags risk 6 to 12 hours early. [source](https://github.com/nik-hill-323/sepsis-prediction)
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r10+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+10.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r01+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+1.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 <details>
-<summary><b>C</b> · <code>PlanMoE</code> is deployed on Hugging Face Spaces.</summary>
+<summary><b>C</b> · <code>abtest-kit</code>'s peeking demo: a naive t-test gives 32% false positives, mSPRT gives 1.8%.</summary>
 
-❌ **Fooled. This one is true.** [source](https://github.com/nik-hill-323/planmoe) Open another one.
+❌ **Fooled. This one is true.** [source](https://github.com/nik-hill-323/abtest-kit) Open another one.
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r10+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+10.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r01+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+1.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 
 <sub>No leaderboard guesses yet this round.</sub>
 
 <details>
-<summary>Yesterday's answer · round 9</summary>
+<summary>Yesterday's answer · round 10</summary>
 
-**C** was made up (entity swap): _The CGMHE patient records are stored in MongoDB Atlas._  
-They go into PostgreSQL. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience)
+**B** was made up (unsupported detail): _The counselor-scoring pipeline replaced a review process that was already half automated._  
+It replaced a fully manual WHO/UNICEF evaluation process. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience)
 
 </details>
 <!--game:end-->
