@@ -98,40 +98,40 @@ _No questions yet. Be the first._
 One of these claims about me is made up, the way an LLM makes things up: a number that drifted, a name that got swapped, a claim turned backwards. Click the one you think is fake to see if you caught it. New round every day.
 
 <!--game:start-->
-**Round 2** · started 2026-10-29 · click the claim you think is made up
+**Round 3** · started 2026-10-30 · click the claim you think is made up
 
 <details>
-<summary><b>A</b> · <code>medrag-toolkit</code> falls back to the model's own knowledge when retrieval finds nothing.</summary>
-
-🎯 **Caught it. This is the hallucination** (polarity flip). It does the opposite: unsupported sentences are dropped and it abstains rather than guesses. [source](https://github.com/nik-hill-323/medrag-toolkit)
-
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r02+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+2.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
-
-</details>
-<details>
-<summary><b>B</b> · The 14-language evaluation found a 23% calibration gap on low-resource languages.</summary>
+<summary><b>A</b> · The Airflow and AWS pipelines ingest 500K+ patient records into PostgreSQL across 25+ countries.</summary>
 
 ❌ **Fooled. This one is true.** [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience) Open another one.
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r02+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+2.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r03+A&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AA%2A%2A+as+the+hallucination+in+round+3.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put A on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 <details>
-<summary><b>C</b> · <code>PlanMoE</code> is a mixture of experts over room-constraint graphs, INT8 quantized, on HF Spaces.</summary>
+<summary><b>B</b> · <code>skiavox</code> is a chest X-ray ensemble with Grad-CAM that takes DICOM in.</summary>
 
-❌ **Fooled. This one is true.** [source](https://github.com/nik-hill-323/planmoe) Open another one.
+❌ **Fooled. This one is true.** [source](https://github.com/nik-hill-323/skiavox) Open another one.
 
-<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r02+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+2.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r03+B&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AB%2A%2A+as+the+hallucination+in+round+3.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put B on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
+
+</details>
+<details>
+<summary><b>C</b> · The humanitarian forecasting ensemble reached 92% weighted F1 across 40 countries.</summary>
+
+🎯 **Caught it. This is the hallucination** (number drift). 78% weighted F1, on 200K+ records across 18 countries. [source](https://nik-hill-323.github.io/Nikhil_Obuleni/#experience)
+
+<sub><a href="https://github.com/nik-hill-323/nik-hill-323/issues/new?title=guess%3A+r03+C&body=Click+%2A%2ACreate%2A%2A+to+lock+in+claim+%2A%2AC%2A%2A+as+the+hallucination+in+round+3.+A+GitHub+Action+replies+here+in+about+30+seconds+with+the+answer+and+its+sources%2C+then+closes+the+issue.%0A%0A_Only+the+title+is+read.+Your+first+guess+each+round+counts._">Put C on the leaderboard ↗</a> (opens an issue; a bot checks it and replies)</sub>
 
 </details>
 
 <sub>No leaderboard guesses yet this round.</sub>
 
 <details>
-<summary>Yesterday's answer · round 1</summary>
+<summary>Yesterday's answer · round 2</summary>
 
-**B** was made up (number drift): _`sepsis-prediction` flags ICU sepsis risk 24 to 48 hours early._  
-It flags risk 6 to 12 hours early. [source](https://github.com/nik-hill-323/sepsis-prediction)
+**A** was made up (polarity flip): _`medrag-toolkit` falls back to the model's own knowledge when retrieval finds nothing._  
+It does the opposite: unsupported sentences are dropped and it abstains rather than guesses. [source](https://github.com/nik-hill-323/medrag-toolkit)
 
 </details>
 <!--game:end-->
